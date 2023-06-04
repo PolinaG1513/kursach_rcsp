@@ -14,6 +14,7 @@ import configurations from '../configurations/env.config'
       username: 'postgres', //имя пользователя
       password: 'root', //пароль
       host: 'localhost',
+      database: 'nestjs_new',
       synchronize: false,
       logging: 'all',
       entities: ['dist/**/*.entity{.ts,.js}'],

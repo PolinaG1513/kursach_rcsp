@@ -10,10 +10,10 @@ const ormConfig: DataSource = new DataSource({
     database: 'nestjs_new',
     username: 'postgres',
     password: 'root',
-    entities: ['dist/**/*.entity{.js}'],
+    entities: ['dist/**/*.entity.js'],
     logging: true,
     synchronize: false,
     migrationsTableName: 'migrations',
-    migrations: ['dist/migrations/*{.js,.ts}'],
+    migrations: ['src/migrations/*{.js,.ts}'],
 });
 export default ormConfig;
